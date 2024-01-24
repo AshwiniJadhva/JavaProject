@@ -17,6 +17,7 @@ public class FindMinNum {
 	
 	void displayMinNum(int minNum) {
 		System.out.println("Minimum Number in given array is  - "+minNum);
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {

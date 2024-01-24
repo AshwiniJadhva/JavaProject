@@ -17,6 +17,7 @@ public class MaxLengthString {
 	
 	void displayMaxStr(String str) {
 		System.out.println(str);
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {

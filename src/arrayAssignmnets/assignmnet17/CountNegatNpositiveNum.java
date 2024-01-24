@@ -15,6 +15,7 @@ public class CountNegatNpositiveNum {
 		}
 		System.out.println("Positive Number  count - "+positiveCount);
 		System.out.println("Negative Numver Count - "+(input.length-positiveCount));
+		System.out.println(" ");
 	}
 	
 	public static void main(String[] args) {
