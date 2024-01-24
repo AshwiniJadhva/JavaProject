@@ -18,6 +18,7 @@ public class CountOddEvenNum {
 		}
 		System.out.println("Even Count is - "+evenCount);
 		System.out.println("Odd Number Count is - "+(input.length-evenCount));
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {

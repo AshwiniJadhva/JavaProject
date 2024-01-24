@@ -26,6 +26,7 @@ public class DiffBetEvebNumNOddNum {
 	
 	void displayDiff(int diff) {
 		System.out.println("Difference is  : "+diff);
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {

@@ -17,6 +17,7 @@ public class FindMaxNum {
 	
 	void display(int maxNum) {
 		System.out.println(" Maximun Number in given array is - "+maxNum);
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {

@@ -27,8 +27,11 @@ public class FindTargetNumIsAvailable {
 	void display(boolean availability, int targetNum) {
 		if(availability)
 			System.out.println(targetNum+" found in given array ");
-		else
+		else {
 			System.out.println(targetNum+" doesnt found in given array");
+			System.out.println("");
+			
+		}
 	}
 	
 	public static void main(String[] args) {

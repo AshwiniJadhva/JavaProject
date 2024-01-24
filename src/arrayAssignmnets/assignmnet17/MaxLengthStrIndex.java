@@ -17,6 +17,7 @@ public class MaxLengthStrIndex {
 	
 	void displayMaxStrIndex(int maxIndex) {
 		System.out.println(maxIndex);
+		System.out.println(" ");
 	}
 	
 	

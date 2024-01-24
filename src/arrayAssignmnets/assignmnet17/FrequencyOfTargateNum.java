@@ -14,6 +14,7 @@ public class FrequencyOfTargateNum {
 				Count++;
 		}
 		System.out.println("Frequency Of Targate Numbe ris  - "+Count);
+		System.out.println("");
 	}
 	
 	public static void main(String[] args) {
