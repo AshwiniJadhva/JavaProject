@@ -59,8 +59,10 @@ public class ValidationOnString {
 	
 	public static void main(String[] args) {
 		String arr[] = {"raj", "aarya", "aavruti", "shruti"};
-		new ValidationOnString().getFrequencyOfArrayString(arr);
-		
+		ValidationOnString validationOnString = new ValidationOnString();
+		validationOnString.frequencyOfChar("technocredits", 'e');
+		validationOnString.getFrequencyOfAllChar("technocredits");
+		validationOnString.getFrequencyOfArrayString(arr);
 	}
 
 }
