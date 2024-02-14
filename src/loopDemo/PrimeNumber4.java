@@ -9,7 +9,7 @@ public class PrimeNumber4 {
 		for(int num  = 2 ; num<= targetNum/2 ; num++) {
 			if(targetNum%num==0) {
 				numIsPrime = false;
-				System.out.println(targetNum+" Number is not prime");
+				//System.out.println(targetNum+" Number is not prime");
 				break;
 			} 
 		}
@@ -27,7 +27,7 @@ public class PrimeNumber4 {
 	public static void main(String[] args) {
 		PrimeNumber4 primeNumber4 = new PrimeNumber4();
 		//primeNumber4.checkNumisprime(17);
-		primeNumber4.checkAllPrimeNum(8);
+		primeNumber4.checkAllPrimeNum(100);
 	}
 
 }

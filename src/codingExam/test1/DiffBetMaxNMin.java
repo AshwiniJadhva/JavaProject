@@ -15,7 +15,7 @@ public class DiffBetMaxNMin {
 		for(int index= 0 ; index<arr.length; index++) {
 			if(maxNum<arr[index]) 
 				maxNum = arr[index];
-			if(minNum>arr[index])
+			else if(minNum>arr[index])
 				minNum = arr[index];
 			
 		}

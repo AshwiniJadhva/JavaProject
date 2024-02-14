@@ -35,7 +35,7 @@ public class ProcessingString {
 	}
 	
 	void getSum(String num) {
-		if(!strDigit.equals("")) {
+		if(!num.equals("")) {
 			int number = Integer.parseInt(num);
 			if (number % 2 == 0) {
 				sumEven += number;
