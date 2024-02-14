@@ -1,4 +1,4 @@
-package inheritance.singleInheritance;
+ package inheritance.singleInheritance;
 
 public class Test {
 	

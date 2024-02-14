@@ -18,8 +18,8 @@ public class SumOfIndex {
 		for(int index = 0; index< arr.length; index++) {
 			for(int j = 0; j<arr.length;j++) {
 				if(arr[index]+arr[j] == targetNum) {
-					indexI = index;
-					indexJ = j;
+					indexI = j;
+					indexJ = index;
 				}
 			}
 		}
@@ -29,7 +29,7 @@ public class SumOfIndex {
 	
 	public static void main(String[] args) {
 		int arr[] = {2,11,15,7,4};
-		new SumOfIndex().getIndexSum(arr, 9);
+		new SumOfIndex().getIndexSum(arr, 26);
 	}
 
 }

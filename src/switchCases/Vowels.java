@@ -1,6 +1,6 @@
 package switchCases;
 
-import java.security.DomainCombiner;
+
 
 public class Vowels {
 	
