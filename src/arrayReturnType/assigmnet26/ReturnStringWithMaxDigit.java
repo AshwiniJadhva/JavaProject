@@ -10,7 +10,7 @@ Output : 4M4a5d5h1v1i93
 public class ReturnStringWithMaxDigit {
 	
 	int getCount(String str) {
-		int count = 0;
+		int count = 0; 
 		String output = "";
 		for(int index=0;index<str.length();index++) {
 			if(Character.isDigit(str.charAt(index))) {

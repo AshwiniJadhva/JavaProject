@@ -22,7 +22,7 @@ public class CalculateDiffBetMinNmax {
 		System.out.println("diff bet younder and older is -  "+(max-min));
 	}
 	public static void main(String[] args) {
-		int[] arr = {7 ,12 ,56, 62 ,25, 3};
+		int[] arr = {7 ,12 ,56, 62 ,25 };
 		CalculateDiffBetMinNmax diffBetMinNmax = new CalculateDiffBetMinNmax();
 		diffBetMinNmax.getMinMaxdiff(arr);
 	}

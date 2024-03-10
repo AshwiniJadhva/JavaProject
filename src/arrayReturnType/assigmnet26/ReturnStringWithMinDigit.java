@@ -12,7 +12,7 @@ public class ReturnStringWithMinDigit {
 	
 	String getString(String[] arr) {
 		String str = "";
-		int minCount = Integer.MAX_VALUE;
+		int minCount = arr[0].length();
 		for(int index = 0; index<arr.length; index++) {
 			int count = 0;
 			for(int innerIndex = 0; innerIndex<arr[index].length(); innerIndex++) {
@@ -21,16 +21,16 @@ public class ReturnStringWithMinDigit {
 				}
 			}
 			
-			if(minCount>count) {
+			if(minCount>=count) {
 				minCount = count  ;
-				str = arr[index];
+				str = arr[index]; 
 			}
 		}
 		return str;
 	}
 	
 	public static void main(String[] args) {
-		String[] str = {"P1u2r2va","1123a" ,"1K2omal","1s", "9S4hivan4i4", "1K2r3ati", "4M4a5d5h1v1i93","2as","11a"};
+		String[] str = {"P1u2r2va","1123a" ,"1K2omal","11s", "9S4hivan4i4","k", "1K2r3ati", "4M4a5d5h1v1i93","2as","11a","1u"};
 		ReturnStringWithMinDigit minDigit = new ReturnStringWithMinDigit();
 		String output = minDigit.getString(str);
 		//String output = minDigit.getMinDigitString(str);
