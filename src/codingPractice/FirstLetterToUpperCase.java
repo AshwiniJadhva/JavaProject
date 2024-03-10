@@ -1,5 +1,6 @@
 package codingPractice;
 
+import java.util.Locale;
 
 /*Given a string str, convert the first letter of each word in the string to uppercase. 
 
@@ -14,24 +15,17 @@ the three words.*/
 
 public class FirstLetterToUpperCase {
 	
-	public static String transform(String s)
+	public static void transform(String str)
     {
-        // code here
-        String output = "";
-        for(int index = 0;index<s.length();index++){
-         
-            char ch = Character.toUpperCase(s.charAt(index));
-            output = output+ch;
-           
-               
-            
-        }
-        return output;
+		String[] arr= str.split(" ");
+       for(int index = 0; index<arr.length; index++) {
+    	  
+       }
     }
 	
 	public static void main(String[] args) {
-		String output= FirstLetterToUpperCase.transform("ashwini jadhav");
-		System.out.println(output);
+		FirstLetterToUpperCase letterToUpperCase = new FirstLetterToUpperCase();
+		letterToUpperCase.transform("ashwini jadhav");
 	}
 
 }

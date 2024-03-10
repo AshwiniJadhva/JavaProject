@@ -13,11 +13,12 @@ public class ReturncharwithmaxFrequency {
 	
 	public static char getMaxOccuringChar(String line)
     {
-        int count=0;
+       
         char ch = ' ' ;
         int max = 0;
         
         for(int index = 0;index<line.length();index++) {
+        	 int count=0;
         	char tempChar = line.charAt(index);
         	for(int innerIndex = 0;innerIndex<line.length();innerIndex++) {
         		if(line.charAt(innerIndex)==line.charAt(index)) {
@@ -29,14 +30,14 @@ public class ReturncharwithmaxFrequency {
         		count =0;
         		ch = tempChar;
         	}
-        	else count = 0;
+        	//else count = 0;
         }
         return ch;
             
     }
 	
 	public static void main(String[] args) {
-		char ch = ReturncharwithmaxFrequency.getMaxOccuringChar("globant india is hiring");
+		char ch = ReturncharwithmaxFrequency.getMaxOccuringChar("pppppppppppp globant india is hiring cccccc");
 		System.out.println(ch);
 	}
 
