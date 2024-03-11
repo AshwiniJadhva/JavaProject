@@ -2,6 +2,10 @@ package exceptionDemo;
 
 public class Example1 {
 	
+	Example1(){
+		super();
+	}
+	
 	void m1(int y) {
 		System.out.println("hi");
 		System.out.print("answer is - ");
