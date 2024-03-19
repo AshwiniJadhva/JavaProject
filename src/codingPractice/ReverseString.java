@@ -26,7 +26,7 @@ public class ReverseString {
 		for(int index = 0;index<string.length; index++) {
 			//char ch = string[index].charAt(index);
 			 output = output+ reverseString(string[index])+" ";
-			string[index] = output;
+			//string[index] = output;
 		}
 		return output.trim();
 	}
