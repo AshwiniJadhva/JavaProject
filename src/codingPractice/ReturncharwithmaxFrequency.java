@@ -11,8 +11,7 @@ output : i
 
 public class ReturncharwithmaxFrequency {
 	
-	public static char getMaxOccuringChar(String line)
-    {
+	public static char getMaxOccuringChar(String line){
        
         char ch = ' ' ;
         int max = 0;
