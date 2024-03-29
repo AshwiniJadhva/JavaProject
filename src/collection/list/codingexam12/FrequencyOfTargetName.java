@@ -1,4 +1,4 @@
-package collection.list.assignment12;
+package collection.list.codingexam12;
 
 /*
 *  int countName(ArrayList<String> arr, String targetName) []

@@ -1,4 +1,4 @@
-package collection.list.assignment12;
+package collection.list.codingexam12;
 
 /*Programming Test - 12 : 22nd May'2021
 
