@@ -42,7 +42,7 @@ public class FindDuplicate {
 	
 	public static void main(String[] args) {
 		String[] name = {"ashwini","jadhav","jadhav","ashwini","ghorpade","ghorpade","agstya"};
-		//getDuplicateWords(name);
+		getDuplicateWords(name);
 		
 		int[] arr = {1,2,1,7,4,2,3,4,5,6,7,8,9};
 		getDuplicateNum(arr);
